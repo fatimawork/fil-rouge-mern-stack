@@ -1,0 +1,32 @@
+/* src/styles/MovieCard.css */
+.movie-card {
+    width: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.movie-card.hovered {
+    transform: scale(1.1);
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.movie-info {
+    text-align: center;
+    padding: 10px;
+}
+
+.book-now {
+    background-color: #ea5a1b;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
