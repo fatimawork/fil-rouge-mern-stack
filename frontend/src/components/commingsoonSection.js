@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/FeaturedSection.css';
 
-const commingsoonSection = ({ title, movies }) => {
+const CommingsoonSection = ({ title, movies }) => {
     return (
         <div className="featured-section">
             <div className="section-header">
@@ -25,4 +25,4 @@ const commingsoonSection = ({ title, movies }) => {
     );
 };
 
-export default commingsoonSection;
+export default CommingsoonSection;
