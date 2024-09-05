@@ -1,0 +1,30 @@
+.movie-detailss {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+    gap: 20px;
+    /* height: 100vh;  */
+    text-align: center; 
+    padding: 25px;
+
+}
+
+.movie-poster {
+    width: 30rem;
+    height: auto;
+    border-radius: 10px;
+}
+
+.movie-description {
+    max-width: 60%;
+}
+
+.movie-details-placeholder {
+    font-size: 1.2em;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center placeholder text vertically in the viewport */
+    text-align: center;
+}

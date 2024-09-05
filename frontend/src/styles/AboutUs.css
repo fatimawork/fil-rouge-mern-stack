@@ -1,0 +1,36 @@
+/* src/styles/AboutUs.css */
+.about-us-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f5f5f5; /* Light background for contrast */
+    height: 100vh; /* Full screen section */
+}
+
+.about-us-details {
+    max-width: 50%; /* Takes up half the width */
+    padding-right: 20px; /* Adds space between text and image */
+}
+
+.about-us-details h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-us-details p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.about-us-image {
+    max-width: 45%; /* Keeps image at a reasonable size */
+}
+
+.about-us-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}

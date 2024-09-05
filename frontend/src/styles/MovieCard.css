@@ -1,20 +1,25 @@
-/* src/styles/MovieCard.css */
 .movie-card {
-    width: 200px;
+    width: 250px;
+    height: 305px;
     overflow: hidden;
     border-radius: 10px;
     transition: transform 0.3s ease;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
 }
 
 .movie-card.hovered {
-    transform: scale(1.1);
+    transform: scale(1.15);
 }
 
 .movie-card img {
     width: 100%;
-    height: auto;
-    border-radius: 10px;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
 }
 
 .movie-info {

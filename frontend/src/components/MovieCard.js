@@ -1,13 +1,12 @@
-// src/components/MovieCard.js
 import React, { useState } from 'react';
 import '../styles/MovieCard.css';
 
-const MovieCard = ({ movie, onClick }) => {
+const MovieCard = ({ movie, isSelected, onClick }) => {
     const [isHovered, setIsHovered] = useState(false);
 
     return (
         <div
-            className={`movie-card ${isHovered ? 'hovered' : ''}`}
+            className={`movie-card ${isHovered || isSelected ? 'hovered' : ''}`}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
             onClick={() => onClick(movie)}
